@@ -180,3 +180,8 @@ a:last-child:hover {
   width: 60%;
   margin-left: 200px;
 }
+
+.carousel-inner .carousel-item img {
+  height: 700px;
+  width: 50%;
+}

@@ -14,6 +14,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- bootsrtap css  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <!-- ------- -->
   </head>
   <body>
@@ -143,10 +150,391 @@
           <i class="fa-solid fa-circle-check"></i>
           <p>Very Easy to Customize and Setup</p>
         </div>
-        <div class="btn-parent">
+        <!-- <div class="btn-parent">
           <a href="" class="btn">Start Exploring</a>
+        </div> -->
+      </div>
+    </div>
+    <!-- crousel-section -->
+    <div style="height: auto; width: 100%" class="bg-info">
+      <div
+        class="container mt-5 text-center pt-5"
+        style="margin-top: 200px !important"
+      >
+        <h3 class="fs-1 fw-normal mb-5">Take a look at our screenshots</h3>
+        <p class="mb-5 w-75 fs-5 text-muted" style="margin: 0 auto">
+          Add your app screenshots below. Make sure to make them lively by
+          putting them inside real device mockups Replace this text to describe
+          the screenshots of your app.
+        </p>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner" style="height: 500px !important">
+            <div class="carousel-item active">
+              <img src="./img/4k 2.jpg" class="d-block w-100" alt="image1" />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/4k lion.jpg" class="d-block w-100" alt="image2" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/4k tiger.jpg"
+                class="d-block w-100"
+                alt="image3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>
+
+    <!-- cards  -->
+    <div class="cards container">
+      <h1>We've got the perfect package for you</h1>
+      <p>
+        A section to display your pricing structure. Make sure to highlight your
+        most popular plan like shown below. Replace this text to describe your
+        pricing plan.
+      </p>
+      <div class="cards-list" style="display:flex;align-items:center;justify-content:space-between;gap:0px 30px">
+        <div
+          class="card border-0 shadow text-center p-0"
+          style="width: 20rem; height: 500px"
+        >
+          <div class="card-body p-0">
+            <h5
+              class="card-title m-0"
+              style="
+                background-color: rgba(127, 255, 212, 0.45);
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              Basic
+            </h5>
+            <p
+              class="card-text m-0 p-0 fs-1"
+              style="
+                background-color: rgb(255, 255, 255);
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              $12.0/m
+            </p>
+          </div>
+          <div style="background-color: rgba(127, 255, 212, 0.336) !important">
+            <ul class="list-group list-group-flush">
+              <li
+                class="list-group-item"
+                style="background-color: rgba(127, 255, 212, 0.265) !important"
+              >
+                One User
+              </li>
+              <li
+                class="list-group-item"
+                style="background-color: rgba(127, 255, 212, 0.281) !important"
+              >
+                Multiple Access
+              </li>
+              <li
+                class="list-group-item"
+                style="background-color: rgba(127, 255, 212, 0.347) !important"
+              >
+                24/7 Online Support
+              </li>
+              <li
+                class="list-group-item"
+                style="background-color: rgba(127, 255, 212, 0.292) !important"
+              >
+                SMS Support
+              </li>
+            </ul>
+          </div>
+          <div
+            class="card-body pt-5"
+            style="background-color: rgba(127, 255, 212, 0.45) !important"
+          >
+            <p>Start Free Trial</p>
+            <button type="button" class="btn btn-outline-secondary rounded-pill">
+              Secondary
+            </button>
+          </div>
+        </div>
+
+        <!-- second card . -->
+        <div
+        class="card border-0 shadow text-center p-0"
+        style="width: 20rem; height: 500px"
+      >
+        <div class="card-body p-0">
+          <h5
+            class="card-title m-0"
+            style="
+              background-color: rgba(127, 255, 212, 0.45);
+              height: 50px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            Basic
+          </h5>
+          <p
+            class="card-text m-0 p-0 fs-1"
+            style="
+              background-color: rgb(255, 255, 255);
+              height: 100px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            $12.0/m
+          </p>
+        </div>
+        <div style="background-color: rgba(127, 255, 212, 0.336) !important">
+          <ul class="list-group list-group-flush">
+            <li
+              class="list-group-item"
+              style="background-color: rgba(127, 255, 212, 0.265) !important"
+            >
+              One User
+            </li>
+            <li
+              class="list-group-item"
+              style="background-color: rgba(127, 255, 212, 0.281) !important"
+            >
+              Multiple Access
+            </li>
+            <li
+              class="list-group-item"
+              style="background-color: rgba(127, 255, 212, 0.347) !important"
+            >
+              24/7 Online Support
+            </li>
+            <li
+              class="list-group-item"
+              style="background-color: rgba(127, 255, 212, 0.292) !important"
+            >
+              SMS Support
+            </li>
+          </ul>
+        </div>
+        <div
+          class="card-body pt-5"
+          style="background-color: rgba(127, 255, 212, 0.45) !important"
+        >
+          <p>Start Free Trial</p>
+          <button type="button" class="btn btn-outline-secondary rounded-pill">
+            Secondary
+          </button>
+        </div>
+      </div>
+
+      <!-- third card  -->
+      <div
+      class="card border-0 shadow text-center p-0"
+      style="width: 20rem; height: 500px"
+    >
+      <div class="card-body p-0">
+        <h5
+          class="card-title m-0"
+          style="
+            background-color: rgba(127, 255, 212, 0.45);
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          Basic
+        </h5>
+        <p
+          class="card-text m-0 p-0 fs-1"
+          style="
+            background-color: rgb(255, 255, 255);
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          $12.0/m
+        </p>
+      </div>
+      <div style="background-color: rgba(127, 255, 212, 0.336) !important">
+        <ul class="list-group list-group-flush">
+          <li
+            class="list-group-item"
+            style="background-color: rgba(127, 255, 212, 0.265) !important"
+          >
+            One User
+          </li>
+          <li
+            class="list-group-item"
+            style="background-color: rgba(127, 255, 212, 0.281) !important"
+          >
+            Multiple Access
+          </li>
+          <li
+            class="list-group-item"
+            style="background-color: rgba(127, 255, 212, 0.347) !important"
+          >
+            24/7 Online Support
+          </li>
+          <li
+            class="list-group-item"
+            style="background-color: rgba(127, 255, 212, 0.292) !important"
+          >
+            SMS Support
+          </li>
+        </ul>
+      </div>
+      <div
+        class="card-body pt-5"
+        style="background-color: rgba(127, 255, 212, 0.45) !important"
+      >
+        <p>Start Free Trial</p>
+        <button type="button" class="btn btn-outline-secondary rounded-pill">
+          Secondary
+        </button>
+      </div>
+    </div>
+    <!-- fourth card  -->
+    <div
+    class="card border-0 shadow text-center p-0"
+    style="width: 20rem; height: 500px"
+  >
+    <div class="card-body p-0">
+      <h5
+        class="card-title m-0"
+        style="
+          background-color: rgba(127, 255, 212, 0.45);
+          height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        Basic
+      </h5>
+      <p
+        class="card-text m-0 p-0 fs-1"
+        style="
+          background-color: rgb(255, 255, 255);
+          height: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        $12.0/m
+      </p>
+    </div>
+    <div style="background-color: rgba(127, 255, 212, 0.336) !important">
+      <ul class="list-group list-group-flush">
+        <li
+          class="list-group-item"
+          style="background-color: rgba(127, 255, 212, 0.265) !important"
+        >
+          One User
+        </li>
+        <li
+          class="list-group-item"
+          style="background-color: rgba(127, 255, 212, 0.281) !important"
+        >
+          Multiple Access
+        </li>
+        <li
+          class="list-group-item"
+          style="background-color: rgba(127, 255, 212, 0.347) !important"
+        >
+          24/7 Online Support
+        </li>
+        <li
+          class="list-group-item"
+          style="background-color: rgba(127, 255, 212, 0.292) !important"
+        >
+          SMS Support
+        </li>
+      </ul>
+    </div>
+    <div
+      class="card-body pt-5"
+      style="background-color: rgba(127, 255, 212, 0.45) !important"
+    >
+      <p>Start Free Trial</p>
+      <button type="button" class="btn btn-outline-secondary rounded-pill">
+        Secondary
+      </button>
+    </div>
+  </div>
+        
+      </div>
+    </div>
+
+    <div style="height:100px;border-bottom:3px dotted black;width:70%;margin:0 auto; ">
+
+    </div>
+
+    <!-- review section  -->
+    
+
+
+
+    <!-- bootstrap script  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
