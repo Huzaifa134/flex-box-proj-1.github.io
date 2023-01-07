@@ -185,3 +185,22 @@ a:last-child:hover {
   height: 700px;
   width: 50%;
 }
+
+.secondary-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card-1 {
+  height: 300px;
+  width: 350px;
+  background-color: rgba(127, 255, 212, 0.265);
+  padding: 20px 30px;
+}
+
+.card-sm-list {
+  display: flex;
+  justify-content: space-between;
+}
